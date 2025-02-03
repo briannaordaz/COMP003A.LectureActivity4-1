@@ -50,5 +50,23 @@ class Program
             Console.WriteLine(grade); // Display each grade stored in the array
         }
         Console.WriteLine($"Average Grade: {average:F2}");
+        
+        //Declare a list of strings to store the names of the students
+        List<string> studentNames = new List<string>();
+        
+        //Collect student names
+        for (int i = 0; i < 5; i++)
+        {
+            Console.Write($"Enter name for student {i + 1}: ");
+            studentNames.Add(Console.ReadLine()); // Add the entered nane to the list of student names
+            
+        }
+        
+        //Display student names
+        Console.WriteLine("\nStudent Names: ");
+        for (int i = 0; i < studentNames.Count; i++)
+        {
+            Console.WriteLine($"Student {i + 1}: {studentNames[i]}"); //Display each student name with their index
+        }
     }
 }

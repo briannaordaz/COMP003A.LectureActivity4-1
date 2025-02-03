@@ -1,4 +1,8 @@
-﻿namespace COMP003A.LectureActivity4_1;
+﻿//Author:  Brianna Ordaz
+//Course:  COMP003A
+//Faculty: Jonathan Cruz
+//Purpose: Calculate average grades using arrays and list in C#
+namespace COMP003A.LectureActivity4_1;
 
 class Program
 {

@@ -42,5 +42,13 @@ class Program
             sum += grades[i];  //Add the current grade to the total sum for averaging
         }
         double average = sum / grades.Length;
+        
+        //Display the grades and average
+        Console.WriteLine("\nGrades:");
+        foreach (int grade in grades)
+        {
+            Console.WriteLine(grade); // Display each grade stored in the array
+        }
+        Console.WriteLine($"Average Grade: {average:F2}");
     }
 }

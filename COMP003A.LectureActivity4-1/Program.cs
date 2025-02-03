@@ -34,5 +34,13 @@ class Program
                 }
             }
         }
+        
+        //Calculate the average of the grades:
+        double sum = 0;
+        for (int i = 0; i < grades.Length; i++)
+        {
+            sum += grades[i];  //Add the current grade to the total sum for averaging
+        }
+        double average = sum / grades.Length;
     }
 }
